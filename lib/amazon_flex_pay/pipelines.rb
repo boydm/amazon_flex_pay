@@ -37,6 +37,15 @@ module AmazonFlexPay
     def single_use_pipeline(caller_reference, return_url, options = {})
       cbui SingleUse.new(options.merge(:caller_reference => caller_reference, :return_url => return_url))
     end
+    
+    # Creates a pipeline that will authorize you to send money _from_ the user on a recurring basis.
+    #
+    # Note that if this payment fails, you must create another pipeline to get another token.
+    #
+    # See https://amazonpayments.s3.amazonaws.com/FPS_ASP_Guides/FPS_Advanced_Quick_Start.pdf
+    def recurring_use_pipeline(caller_reference, return_url, options = {})
+      cbui Recurring.new(options.merge(:caller_reference => caller_reference, :return_url => return_url))
+    end
 
     protected
 
