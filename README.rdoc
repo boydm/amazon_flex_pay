@@ -2,7 +2,7 @@
 
 Library for Amazon's Flexible Payment Service.
 
-== Adding support for the Recurring pipeline and overriding IPN URLs
+== Adding support for the Recurring pipeline
 -- Boyd
 
 == INITIALIZE
