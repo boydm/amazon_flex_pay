@@ -1,12 +1,10 @@
-# see https://amazonpayments.s3.amazonaws.com/FPS_ASP_Guides/FPS_Advanced_Quick_Start.pdf
 module AmazonFlexPay::Pipelines #:nodoc:
   class Recurring < Base #:nodoc:
     attribute :recipient_token      # required
     attribute :transaction_amount   # required
     attribute :recurring_period     # required
-    attribute :validity_expiry      # default - no expiration
-    attribute :validity_start       # default - now
-    
+    attribute :validity_expiry
+    attribute :validity_start
     attribute :currency_code, :enumeration => :currency_code
     attribute :address_name
     attribute :address_line1
