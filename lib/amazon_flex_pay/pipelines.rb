@@ -43,7 +43,7 @@ module AmazonFlexPay
     # Note that if this payment fails, you must create another pipeline to get another token.
     #
     # See https://amazonpayments.s3.amazonaws.com/FPS_ASP_Guides/FPS_Advanced_Quick_Start.pdf
-    def recurring_use_pipeline(caller_reference, return_url, options = {})
+    def recurring_pipeline(caller_reference, return_url, options = {})
       cbui Recurring.new(options.merge(:caller_reference => caller_reference, :return_url => return_url))
     end
 
