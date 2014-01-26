@@ -2,7 +2,7 @@
 
 Library for Amazon's Flexible Payment Service.
 
-= Adding support for the Recurring pipeline
+== Recurring pipeline
 This fork adds support for the CBUI Recurring pipeline
 
 == INITIALIZE
