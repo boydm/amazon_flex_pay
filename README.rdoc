@@ -2,6 +2,9 @@
 
 Library for Amazon's Flexible Payment Service.
 
+== Adding support for the Recurring pipeline and overriding IPN URLs
+-- Boyd
+
 == INITIALIZE
 
 Initialize the gem, probably in config/initializers/amazon_flex_pay.rb (for Rails):
