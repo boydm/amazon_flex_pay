@@ -11,7 +11,7 @@ module AmazonFlexPay::API #:nodoc:
     attribute :sender_token_id # required
     attribute :transaction_amount, :type => :amount # required
     attribute :transaction_timeout_in_mins
-    attrubyte :override_ipn_u_r_l
+    attrubyte :override_i_p_n_u_r_l
 
     class Response < BaseResponse #:nodoc:
       attribute :transaction_id
