@@ -13,9 +13,10 @@ Gem::Specification.new do |s|
   s.files = Dir.glob("lib/**/*") + %w(LICENSE README.rdoc Rakefile)
   s.test_files = Dir.glob("test/**/*")
 
-  s.add_dependency('rest-client', '~>1.6.1')
+  s.add_dependency('rest-client', '>= 1.6.7')
   s.add_dependency('multi_xml', '>= 0.5.2')
-  s.add_dependency('activesupport', '>= 3.0.14')
+  #s.add_dependency('activesupport', '>= 3.0.14')
+  s.add_dependency('activesupport', '>= 4.0.3')
 
   s.add_development_dependency('mocha')
 end
