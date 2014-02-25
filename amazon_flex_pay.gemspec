@@ -3,7 +3,7 @@
 
 Gem::Specification.new do |s|
   s.name = 'amazon_flex_pay'
-  s.version = '0.10.02'
+  s.version = '0.10.14'
   s.authors = ['Lance Ivy']
   s.email = 'lance@kickstarter.com'
   s.homepage = 'http://github.com/kickstarter/amazon_flex_pay'
