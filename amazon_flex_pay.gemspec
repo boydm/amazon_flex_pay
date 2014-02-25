@@ -1,4 +1,4 @@
-$LOAD_PATH << File.dirname(__FILE__) + '/lib'
+#$LOAD_PATH << File.dirname(__FILE__) + '/lib'
 #require 'amazon_flex_pay'
 
 Gem::Specification.new do |s|
