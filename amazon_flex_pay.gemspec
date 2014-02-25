@@ -1,9 +1,9 @@
 $LOAD_PATH << File.dirname(__FILE__) + '/lib'
-require 'amazon_flex_pay'
+#require 'amazon_flex_pay'
 
 Gem::Specification.new do |s|
   s.name = 'amazon_flex_pay'
-  s.version = AmazonFlexPay::VERSION
+  s.version = '0.10.01'
   s.authors = ['Lance Ivy']
   s.email = 'lance@kickstarter.com'
   s.homepage = 'http://github.com/kickstarter/amazon_flex_pay'
